@@ -9,3 +9,6 @@
 CrewMember.create(name: 'Fry')
 CrewMember.create(name: 'Leela')
 CrewMember.create(name: 'Zoidberg')
+
+dc = DeliveryContract.create(external_id: 01, item: "Nitroglycerin Souffle", crew_size: 3, destination: "Ms Aster's Mansion")
+Schedule.create(depart_date: "3000-04-08", delivery_date: "3000-04-10", delivery_contract: dc)

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  external_id: 1
+  item: MyText
+  crew_size: 1
+  destination: MyText
+
+two:
+  external_id: 1
+  item: MyText
+  crew_size: 1
+  destination: MyText
