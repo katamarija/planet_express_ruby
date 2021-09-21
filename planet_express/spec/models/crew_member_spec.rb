@@ -1,4 +1,4 @@
-require 'rspec_helper'
+require "rails_helper"
 
 describe "CrewMember" do
   it "creates a crew member with expected attributes" do

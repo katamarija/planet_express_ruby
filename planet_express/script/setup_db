@@ -1,0 +1,4 @@
+#!/bin/bash
+
+createuser -d planet_express -h localhost -p 5432 -U postgres -P
+rake db:create
