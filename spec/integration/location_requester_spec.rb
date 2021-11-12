@@ -6,8 +6,8 @@ describe "LocationRequester" do
     response = LocationRequester.get_api_response(name: name)
     expect(response["name"].class).to eq(String)
     expect(response["coordinates"].class).to eq(Hash)
-    expect(response["coordinates"]["x"]).to eq(Integer)
-    expect(response["coordinates"]["y"]).to eq(Integer)
-    expect(response["coordinates"]["z"]).to eq(Integer)
+    expect(response["coordinates"]["x"].class).to eq(Integer)
+    expect(response["coordinates"]["y"].class).to eq(Integer)
+    expect(response["coordinates"]["z"].class).to eq(Integer)
   end
 end
